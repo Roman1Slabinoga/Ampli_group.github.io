@@ -1,9 +1,46 @@
-.my-color{
+.my-color {
     color: #18CFAB;
 }
-.my-bg-color{
+
+.my-bg-color {
     background: #18CFAB;
 }
-.my-line{
+
+.my-line {
     border-top: 3px solid white;
+}
+
+#our_work ul li {
+    border: 0.09px solid #EBEBEB;
+
+}
+
+#our_work ul #first-link {
+    border-top: 3px solid #18CFAB;
+}
+
+.my-active {
+    border-top: 3px solid #18CFAB;
+
+}
+
+#carouselExampleIndicators {
+    max-width: 180px;
+
+    height: 160px;
+}
+
+.carousel-control-next {
+    right: 120px;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item {
+    width: 170px;
+    height: 100px;
+}
+
+@media screen and (max-width: 992px) {
+    .carousel-control-next {
+        right: 0;
+    }
 }
