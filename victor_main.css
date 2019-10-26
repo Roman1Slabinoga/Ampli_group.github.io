@@ -25,12 +25,22 @@
 }
 
 #carouselExampleIndicators {
-    width: 180px;
-    ;
-    height: 200px;
+    max-width: 180px;
+
+    height: 160px;
+}
+
+.carousel-control-next {
+    right: 120px;
 }
 
 #carouselExampleIndicators .carousel-inner .carousel-item {
     width: 170px;
     height: 100px;
+}
+
+@media screen and (max-width: 992px) {
+    .carousel-control-next {
+        right: 0;
+    }
 }
