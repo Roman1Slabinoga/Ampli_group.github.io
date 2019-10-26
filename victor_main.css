@@ -1,9 +1,25 @@
-.my-color{
+.my-color {
     color: #18CFAB;
 }
-.my-bg-color{
+
+.my-bg-color {
     background: #18CFAB;
 }
-.my-line{
+
+.my-line {
     border-top: 3px solid white;
+}
+
+#our_work ul li {
+    border: 0.09px solid #EBEBEB;
+
+}
+
+#our_work ul #first-link {
+    border-top: 3px solid #18CFAB;
+}
+
+.my-active {
+    border-top: 3px solid #18CFAB;
+
 }
