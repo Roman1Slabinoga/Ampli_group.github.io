@@ -23,3 +23,14 @@
     border-top: 3px solid #18CFAB;
 
 }
+
+#carouselExampleIndicators {
+    width: 180px;
+    ;
+    height: 200px;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item {
+    width: 170px;
+    height: 100px;
+}
