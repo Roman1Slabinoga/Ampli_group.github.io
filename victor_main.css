@@ -127,6 +127,67 @@
     padding-left: 87px;
 }
 
+#carousel-thumb {
+    width: 300px;
+    height: 300px;
+}
+
+#carousel-thumb .carousel-item {
+    width: 300px;
+    height: 300px;
+}
+
+.carousel-indicators {
+    position: relative;
+}
+
+.carousel-control-prev {
+    position: relative;
+}
+
+.carousel-control-next {
+    position: relative;
+}
+
+#carousel-thumb .carousel-item img {
+    border-radius: 50%;
+}
+
+.carousel-indicators li {
+
+    border-radius: 50%;
+
+    padding: 80px;
+}
+
+.lishka1 {
+    background: url("img/ava1.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lishka2 {
+    background: url("img/ava2.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lishka3 {
+    background: url("img/ava3.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lishka4 {
+    background: url("img/ava4.jpg");
+
+    background-repeat: no-repeat;
+    background-size: 60% auto;
+}
+
 @media screen and (max-width: 992px) {
     .carousel-control-next {
         right: 0;
@@ -136,15 +197,17 @@
         margin-right: 0;
         margin-left: 0;
         text-align: center;
-    }  
+    }
+
     #sxodunka2 ul {
         width: 100%;
         padding-top: 50px;
-        padding-left: 0;}
+        padding-left: 0;
+    }
 
-        #xrenovina {
-            width: 100%;
-            height: auto;
-            padding-left: 0;
-        }    
+    #xrenovina {
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+    }
 }
