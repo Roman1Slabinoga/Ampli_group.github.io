@@ -1,3 +1,10 @@
+#header-main-section {
+    background: url("img/bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .my-color {
     color: #18CFAB;
 }
@@ -39,8 +46,105 @@
     height: 100px;
 }
 
+.victor_top_of_section {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.victor_top_of_section h3 {
+    font-size: 37px;
+    font-family: sans-serif;
+    position: relative;
+    font-weight: 300;
+}
+
+.victor_top_of_section h3::before {
+    position: absolute;
+    content: "";
+    width: 80px;
+    left: 155px;
+    top: 66px;
+    border: 1px solid #00cc99;
+    height: 2px;
+    z-index: 1;
+    background-color: #00cc99;
+}
+
+.victor_top_of_section h3::after {
+    position: absolute;
+    content: "";
+    width: 80px;
+    left: 175px;
+    top: 73px;
+    border: 1px solid #00cc99;
+    height: 2px;
+    z-index: 1;
+    background-color: #00cc99;
+}
+
+#our-company .victor_top_of_section h3 {
+    margin-right: 400px;
+}
+
+#our-company .row {
+    width: 445.5px;
+}
+
+#sxodunka2 ul {
+    width: 900px;
+    padding-top: 50px;
+    padding-left: 200px;
+    font-weight: bold;
+}
+
+.progress {
+    width: 800px;
+    height: 70px;
+    padding-left: 50px;
+}
+
+.strichka {
+    width: 80%;
+    height: 25px;
+    border: 1px solid;
+    margin-right: 70px;
+}
+
+.progress-bar {
+    height: 25px;
+
+}
+
+#sxodunka4 {}
+
+#xrenovina {
+    width: 700px;
+    height: auto;
+    padding-left: 87px;
+}
+
 @media screen and (max-width: 992px) {
     .carousel-control-next {
         right: 0;
     }
+
+    #our-company .victor_top_of_section h3 {
+        margin-right: 0;
+        margin-left: 0;
+        text-align: center;
+    }  
+    #sxodunka2 ul {
+        width: 100%;
+        padding-top: 50px;
+        padding-left: 0;}
+
+        #xrenovina {
+            width: 100%;
+            height: auto;
+            padding-left: 0;
+        }    
 }
