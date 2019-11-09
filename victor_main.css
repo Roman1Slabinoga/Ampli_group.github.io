@@ -34,15 +34,19 @@
 #carouselExampleIndicators {
     max-width: 180px;
 
-    height: 160px;
+    height: 130px;
 }
 
-.carousel-control-next {
-    right: 120px;
+.my-but {
+    width: 180px;
+}
+
+.my-but a {
+    margin-top: 50px;
 }
 
 #carouselExampleIndicators .carousel-inner .carousel-item {
-    width: 170px;
+    width: 180px;
     height: 100px;
 }
 
@@ -128,64 +132,78 @@
 }
 
 #carousel-thumb {
-    width: 300px;
-    height: 300px;
+    width: auto;
+    height: auto;
+    А
 }
 
 #carousel-thumb .carousel-item {
+
     width: 300px;
-    height: 300px;
+    height: 200px;
 }
 
 .carousel-indicators {
     position: relative;
+    width: 100vw;
+    height: 150px;
+}
+
+
+
+#carousel-thumb .carousel-item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30%;
 }
 
 .carousel-control-prev {
-    position: relative;
+    width: 100px;
 }
 
 .carousel-control-next {
-    position: relative;
-}
-
-#carousel-thumb .carousel-item img {
-    border-radius: 50%;
+    width: 100px;
 }
 
 .carousel-indicators li {
-
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
 
-    padding: 80px;
+
+}
+
+.lishku-class {
+    width: 700px;
 }
 
 .lishka1 {
+
     background: url("img/ava1.jpg");
 
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .lishka2 {
     background: url("img/ava2.jpg");
 
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .lishka3 {
     background: url("img/ava3.jpg");
 
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .lishka4 {
     background: url("img/ava4.jpg");
 
     background-repeat: no-repeat;
-    background-size: 60% auto;
+    background-size: 100% 100%;
 }
 
 @media screen and (max-width: 992px) {
@@ -209,5 +227,13 @@
         width: 100%;
         height: auto;
         padding-left: 0;
+    }
+
+    .carousel-indicators li {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+
+
     }
 }
