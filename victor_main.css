@@ -1,239 +1,237 @@
 #header-main-section {
-    background: url("img/bg.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: url("img/bg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .my-color {
-    color: #18CFAB;
+  color: #18cfab;
 }
 
 .my-bg-color {
-    background: #18CFAB;
+  background: #18cfab;
 }
 
 .my-line {
-    border-top: 3px solid white;
+  border-top: 3px solid white;
 }
 
 #our_work ul li {
-    border: 0.09px solid #EBEBEB;
-
+  border: 0.09px solid #ebebeb;
 }
 
 #our_work ul #first-link {
-    border-top: 3px solid #18CFAB;
+  border-top: 3px solid #18cfab;
 }
 
 .my-active {
-    border-top: 3px solid #18CFAB;
-
+  border-top: 3px solid #18cfab;
 }
 
 #carouselExampleIndicators {
-    max-width: 180px;
+  max-width: 180px;
 
-    height: 130px;
+  height: 130px;
 }
 
 .my-but {
-    width: 180px;
+  width: 180px;
 }
 
 .my-but a {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 #carouselExampleIndicators .carousel-inner .carousel-item {
-    width: 180px;
-    height: 100px;
-}
-
-.victor_top_of_section {
-    width: 100%;
-    height: 100px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-
-}
-
-.victor_top_of_section h3 {
-    font-size: 37px;
-    font-family: sans-serif;
-    position: relative;
-    font-weight: 300;
-}
-
-.victor_top_of_section h3::before {
-    position: absolute;
-    content: "";
-    width: 80px;
-    left: 155px;
-    top: 66px;
-    border: 1px solid #00cc99;
-    height: 2px;
-    z-index: 1;
-    background-color: #00cc99;
-}
-
-.victor_top_of_section h3::after {
-    position: absolute;
-    content: "";
-    width: 80px;
-    left: 175px;
-    top: 73px;
-    border: 1px solid #00cc99;
-    height: 2px;
-    z-index: 1;
-    background-color: #00cc99;
-}
-
-#our-company .victor_top_of_section h3 {
-    margin-right: 400px;
-}
-
-#our-company .row {
-    width: 445.5px;
-}
-
-#sxodunka2 ul {
-    width: 900px;
-    padding-top: 50px;
-    padding-left: 200px;
-    font-weight: bold;
-}
-
-.progress {
-    width: 800px;
-    height: 70px;
-    padding-left: 50px;
-}
-
-.strichka {
-    width: 80%;
-    height: 25px;
-    border: 1px solid;
-    margin-right: 70px;
-}
-
-.progress-bar {
-    height: 25px;
-
-}
-
-#sxodunka4 {}
-
-#xrenovina {
-    width: 700px;
-    height: auto;
-    padding-left: 87px;
-}
-
-#carousel-thumb {
-    width: auto;
-    height: auto;
-    А
-}
-
-#carousel-thumb .carousel-item {
-
-    width: 300px;
-    height: 200px;
-}
-
-.carousel-indicators {
-    position: relative;
-    width: 100vw;
-    height: 150px;
-}
-
-
-
-#carousel-thumb .carousel-item img {
-    width: 100%;
-    height: 100%;
-    border-radius: 30%;
-}
-
-.carousel-control-prev {
-    width: 100px;
+  width: 180px;
+  height: 100px;
+  height: 160px;
 }
 
 .carousel-control-next {
-    width: 100px;
+  right: 120px;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item {
+  width: auto;
+  height: 100px;
+}
+
+.victor_top_of_section {
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.victor_top_of_section h3 {
+  font-size: 37px;
+  font-family: sans-serif;
+  position: relative;
+  font-weight: 300;
+}
+
+.victor_top_of_section h3::before {
+  position: absolute;
+  content: "";
+  width: 80px;
+  left: 155px;
+  top: 66px;
+  border: 1px solid #00cc99;
+  height: 2px;
+  z-index: 1;
+  background-color: #00cc99;
+}
+
+.victor_top_of_section h3::after {
+  position: absolute;
+  content: "";
+  width: 80px;
+  left: 175px;
+  top: 73px;
+  border: 1px solid #00cc99;
+  height: 2px;
+  z-index: 1;
+  background-color: #00cc99;
+}
+
+#our-company .victor_top_of_section h3 {
+  margin-right: 400px;
+}
+
+#our-company .row {
+  width: 445.5px;
+}
+
+#sxodunka2 ul {
+  width: 900px;
+  padding-top: 50px;
+  padding-left: 200px;
+  font-weight: bold;
+}
+
+.progress {
+  width: 800px;
+  height: 70px;
+  padding-left: 50px;
+}
+
+.strichka {
+  width: 80%;
+  height: 25px;
+  border: 1px solid;
+  margin-right: 70px;
+}
+
+.progress-bar {
+  height: 25px;
+}
+
+#sxodunka4 {
+}
+
+#xrenovina {
+  width: 700px;
+  height: auto;
+  padding-left: 87px;
+}
+
+#carousel-thumb {
+  width: auto;
+  height: auto;
+}
+
+#carousel-thumb .carousel-item {
+  width: 300px;
+  height: 200px;
+}
+
+.carousel-indicators {
+  position: relative;
+  width: 100vw;
+  height: 150px;
+}
+
+#carousel-thumb .carousel-item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30%;
+}
+
+.carousel-control-prev {
+  width: 100px;
+}
+
+.carousel-control-next {
+  width: 100px;
 }
 
 .carousel-indicators li {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-
-
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
 
 .lishku-class {
-    width: 700px;
+  width: 700px;
 }
 
 .lishka1 {
+  background: url("img/ava1.jpg");
 
-    background: url("img/ava1.jpg");
-
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .lishka2 {
-    background: url("img/ava2.jpg");
+  background: url("img/ava2.jpg");
 
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .lishka3 {
-    background: url("img/ava3.jpg");
+  background: url("img/ava3.jpg");
 
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .lishka4 {
-    background: url("img/ava4.jpg");
+  background: url("img/ava4.jpg");
 
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 @media screen and (max-width: 992px) {
-    .carousel-control-next {
-        right: 0;
-    }
+  .carousel-control-next {
+    right: 0;
+  }
 
-    #our-company .victor_top_of_section h3 {
-        margin-right: 0;
-        margin-left: 0;
-        text-align: center;
-    }
+  #our-company .victor_top_of_section h3 {
+    margin-right: 0;
+    margin-left: 0;
+    text-align: center;
+  }
 
-    #sxodunka2 ul {
-        width: 100%;
-        padding-top: 50px;
-        padding-left: 0;
-    }
+  #sxodunka2 ul {
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 0;
+  }
 
-    #xrenovina {
-        width: 100%;
-        height: auto;
-        padding-left: 0;
-    }
+  #xrenovina {
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+  }
 
-    .carousel-indicators li {
-        width: 110px;
-        height: 110px;
-        border-radius: 50%;
-
-
-    }
+  .carousel-indicators li {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+  }
 }
